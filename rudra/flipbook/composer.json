@@ -1,0 +1,15 @@
+{
+    "name": "rudra/flipbook",
+    "description": "Using Turn.js make extensive flipbook for Laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rajiv Patel",
+            "email": "rudra.rajivp@gmail.com"
+        }
+    ],
+    "require": {
+		"php": ">=5.4.0",
+		"laravel/framework": "5.*"
+	}
+}
