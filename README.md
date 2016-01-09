@@ -25,7 +25,7 @@ Once it's installed, you can register the service provider in `app/config/app.ph
 ]
 ```
 
-Then publish Administrator's assets with `php artisan vendor:publish`. This will add the file `config/administrator.php`. This [config file](http://administrator.frozennode.com/docs/configuration) is the primary way you interact with Administrator. This command will also publish all of the assets, views, and translation files.
+Then publish Administrator's assets with `php artisan vendor:publish`. This will add assets in  `public` , migrations in `database` and views in `resources` . This [config file](http://administrator.frozennode.com/docs/configuration) is the primary way you interact with Administrator. This command will also publish all of the assets, views, and translation files.
 
 
 
