@@ -1,6 +1,6 @@
 <?php
 
-namespace rudrarajiv\flipbook-laravel;
+namespace rudrarajiv\flipbooklaravel;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -17,7 +17,7 @@ class FlipBookServiceProvider extends ServiceProvider
         $this->loadViewsFrom(__DIR__.'/views', 'flipbook');
 
     $this->publishes([
-        __DIR__.'/views' => base_path('resources/views/rudra/flipbook'),
+        __DIR__.'/views' => base_path('resources/views/rudrarajiv/flipbooklaravel'),
     ]);
 
 
@@ -39,7 +39,7 @@ class FlipBookServiceProvider extends ServiceProvider
     public function register()
     {
         include __DIR__.'/routes.php';
-        $this->app->make('rudra\flipbook\FlipBookController');
+        $this->app->make('rudrarajiv\flipbooklaravel\FlipBookController');
 
     }
 }

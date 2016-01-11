@@ -1,6 +1,6 @@
 <?php
 
-namespace rudrarajiv\flipbook-laravel;
+namespace rudrarajiv\flipbooklaravel;
 
 use Carbon\Carbon;
 use Illuminate\Http\Request;
@@ -154,7 +154,7 @@ class FlipBookController extends Controller
         //dd($input);
         //exit;
         // Subcategory::create($input);
-        return Redirect::route('rudra.flipbook.index');
+        return Redirect::route('flipbook.index');
     }
 
     /**
@@ -175,6 +175,6 @@ class FlipBookController extends Controller
         }
         }
         $fb->delete();
-        return Redirect::route('rudra.flipbook.index');
+        return Redirect::route('flipbook.index');
     }
 }

@@ -1,7 +1,8 @@
 {
-    "name": "rudrarajiv/flipbook-laravel",
+    "name": "rudrarajiv/flipbooklaravel",
 	"description": "Using Turn.js make extensive flipbook for Laravel",
 	"license": "MIT",
+	"minimum-stability": "dev",
 	 "authors": [
         {
             "name": "Rajiv Patel",
@@ -13,7 +14,7 @@
 	},
 	"autoload": {
         "psr-4": {
-            "rudrarajiv\\flipbook-laravel\\": "src"
+            "rudrarajiv\\flipbooklaravel\\": "src"
         }
     }
 }
