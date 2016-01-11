@@ -1,5 +1,6 @@
 {
     "name": "rudrarajiv/flipbook-laravel",
+	"minimum-stability": "dev",
     "description": "Using Turn.js make extensive flipbook for Laravel",
     "license": "MIT",
 	 "keywords": [
@@ -13,16 +14,11 @@
         }
     ],
     "require": {
-		"php": ">=5.4.0",
-		"laravel/framework": "5.*"
+		"php": ">=5.4.0"
 	},
-	"autoload": {
-		"classmap": [
-			"src"
-		],
-		"psr-0": {
-			"rudrarajiv\\flipbook-laravel": "src/"
-		}
-	},
-	"minimum-stability": "dev"
+	 "autoload": {
+        "psr-4": {
+            "rudrarajiv\\flipbook-laravel\\": "src"
+        }
+    },
 }
