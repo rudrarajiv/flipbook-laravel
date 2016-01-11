@@ -14,14 +14,14 @@ Flipbook is an magazine interface builder for [Laravel] using Turn.js. With Flip
 To install Administrator as a Composer package to be used with Laravel 5, simply run:
 
 ```sh
-composer require "rudrarajiv/flipbook-laravel: 5.*"
+composer require "rudrarajiv/flipbooklaravel: 5.*"
 ```
 
 Once it's installed, you can register the service provider in `app/config/app.php` in the `providers` array:
 
 ```php
 'providers' => [
-	'rudrarajiv\flipbook-laravel\FlipbookServiceProvider',
+	'rudrarajiv\flipbook-laravel\FlipBookServiceProvider',
 ]
 ```
 

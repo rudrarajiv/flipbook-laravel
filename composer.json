@@ -1,6 +1,6 @@
 {
     "name": "rudrarajiv/flipbooklaravel",
-	"description": "Using Turn.js make extensive flipbook for Laravel",
+	"description": "Use your images to view in magazine style flipping book for laravel 5.x , used Turn.js for viewing flip book.",
 	"license": "MIT",
 	"minimum-stability": "dev",
 	 "authors": [
