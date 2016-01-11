@@ -1,6 +1,6 @@
 <?php
 
-namespace rudra\flipbook;
+namespace rudrarajiv\laravel-flipbook;
 
 use Illuminate\Database\Eloquent\Model;
 

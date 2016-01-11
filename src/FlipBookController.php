@@ -1,6 +1,6 @@
 <?php
 
-namespace rudra\flipbook;
+namespace rudrarajiv\laravel-flipbook;
 
 use Carbon\Carbon;
 use Illuminate\Http\Request;
