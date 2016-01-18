@@ -37,7 +37,7 @@
 
 
 
-		<form class="register-form" method="POST" action="{{ route('rudra.flipbook.update',$flipbook->id) }}" enctype="multipart/form-data">
+		<form class="register-form" method="POST" action="{{ route('flipbook.update',$flipbook->id) }}" enctype="multipart/form-data">
                                  {!! csrf_field() !!}
                                  <input type="hidden" name="_method" value="put" />
 
@@ -82,7 +82,7 @@
 
 
                                 </form><hr>
-                                <form class="register-form" method="POST" action="{{ route('rudra.flipbook.destroy',$flipbook->id)  }}" >
+                                <form class="register-form" method="POST" action="{{ route('flipbook.destroy',$flipbook->id)  }}" >
                                                                  {!! csrf_field() !!}
                                                                   <input type="hidden" name="_method" value="delete" />
                                                                    <button  class="btn btn-lg btn-danger" type="submit">Delete Flip Book</button>

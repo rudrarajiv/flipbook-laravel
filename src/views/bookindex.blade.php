@@ -32,7 +32,7 @@
 @foreach($flipbooks as $fb)
 <div class="col-md-2">
 
-<a href="{{ route('rudra.flipbook.show',$fb->id) }}" style="float: left;clear: both;">
+<a href="{{ route('flipbook.show',$fb->id) }}" style="float: left;clear: both;">
 
 <img class="img-thumbnail" alt="200x200" style="width: 200px; height: 200px;" src="{{ asset(explode(",",$fb->content)[0])  }}" data-holder-rendered="true">
 {{ $fb->name  }} , {{ $fb->desc }}
@@ -41,7 +41,7 @@
 
 </a>
 
-<a href="{{ route('rudra.flipbook.edit',$fb->id) }}" style="float: left;clear: both;width:100%;margin-top: 10px;"> <button id="add_files"  class="btn btn-medium btn-general input-block-level" type="submit" style="width:100%;">Edit</button></a>
+<a href="{{ route('flipbook.edit',$fb->id) }}" style="float: left;clear: both;width:100%;margin-top: 10px;"> <button id="add_files"  class="btn btn-medium btn-general input-block-level" type="submit" style="width:100%;">Edit</button></a>
 
 </div>
 @endforeach

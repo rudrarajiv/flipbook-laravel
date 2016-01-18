@@ -36,7 +36,7 @@
 
 
 
-		<form class="register-form" method="POST" action="{{ route('rudra.flipbook.store') }}" enctype="multipart/form-data">
+		<form class="register-form" method="POST" action="{{ route('flipbook.store') }}" enctype="multipart/form-data">
                                  {!! csrf_field() !!}
 <div class="row">
     <div class="col-lg-3">
