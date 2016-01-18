@@ -5,17 +5,19 @@ Flipbook is an magazine interface builder for [Laravel] using Turn.js. With Flip
 
 
 - **Author:** Rajiv Patel
+- **Version:** 1.0.0
+
+<img src="https://raw.githubusercontent.com/rudrarajiv/flipbook-laravel/master/examples/images/overview.jpg" />
 
 
+## Install via Composer
 
-
-## Composer
-
-To install Administrator as a Composer package to be used with Laravel 5, simply run:
+To install Laravel Flipbook as a Composer package to be used with Laravel 5 and above, simply run:
 
 ```sh
 composer require "rudrarajiv/flipbooklaravel:dev-master"
 ```
+## Register Package
 
 Once it's installed, you can register the service provider in `app/config/app.php` in the `providers` array:
 
@@ -24,6 +26,8 @@ Once it's installed, you can register the service provider in `app/config/app.ph
 	'rudrarajiv\flipbooklaravel\FlipBookServiceProvider',
 ]
 ```
+
+## Publish Package
 
 Then publish Flipbook's assets with `php artisan vendor:publish`. This will add assets in  `public` , migrations in `database` and views in `resources` .
 
@@ -37,6 +41,8 @@ for eg. To publish only assets use this command
 
 Once you have published the migration - please don't forget to migrate the migration into your database - For migration please use  `php artisan migrate`
 After migration is completed - you can find a table named 'flipbook' into your database.
+
+## Edit Routes
 
 By Default the routes file which is included with this package has route defined as following
 
@@ -61,7 +67,12 @@ Flipbook is released under the MIT License. See the LICENSE file for details.
 
 ## Recent Changelog
 
-
-### 5.0.0
+### 1.0.0
 - Created flipbook for Laravel 5.* 
-- Can upload , edit & delete flipping books
+- Can upload , edit & delete magazine style books
+
+## Upcoming Feature
+- Upload any of your documents like Microsoft Word, pdf files and get converted them to Magazine style flipping book.
+
+
+
