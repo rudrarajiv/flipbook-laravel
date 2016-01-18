@@ -26,8 +26,13 @@ Once it's installed, you can register the service provider in `app/config/app.ph
 ```
 
 Then publish Flipbook's assets with `php artisan vendor:publish`. This will add assets in  `public` , migrations in `database` and views in `resources` .
-To publish assets , migration and view individually , please use the tags `flippublic`,`flipmigration`,`flipviews` respectively. 
-for eg.  `php artisan vendor:publish --provider="rudrarajiv\flipbooklaravel\FlipBookServiceProvider" --tag="flippublic"`
+
+To publish assets , migration and view individually , 
+please use the tags `flippublic`,`flipmigration`,`flipview` respectively. 
+
+for eg. To publish only assets use this command
+
+`php artisan vendor:publish --provider="rudrarajiv\flipbooklaravel\FlipBookServiceProvider" --tag="flippublic"`
 
 
 Once you have published the migration - please don't forget to migrate the migration into your database - For migration please use  `php artisan migrate`
