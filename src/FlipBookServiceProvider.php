@@ -18,16 +18,16 @@ class FlipBookServiceProvider extends ServiceProvider
 
     $this->publishes([
         __DIR__.'/views' => base_path('resources/views/rudrarajiv/flipbooklaravel'),
-    ]);
+    ],'flipview');
 
 
         $this->publishes([
             __DIR__.'/../assets' => public_path('/'),
-        ], 'public');
+        ], 'flippublic');
 
         $this->publishes([
             __DIR__.'/../migrations' => database_path('migrations'),
-        ], 'migration');
+        ], 'flipmigration');
 
     }
 

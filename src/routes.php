@@ -8,4 +8,4 @@
 
 
 
-Route::resource('/rudrarajiv/flipbooklaravel','rudrarajiv\flipbooklaravel\FlipBookController');
+Route::resource('/flipbook','rudrarajiv\flipbooklaravel\FlipBookController');
