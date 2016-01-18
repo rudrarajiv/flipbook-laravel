@@ -21,7 +21,7 @@ Once it's installed, you can register the service provider in `app/config/app.ph
 
 ```php
 'providers' => [
-	'rudrarajiv\flipbook-laravel\FlipBookServiceProvider',
+	'rudrarajiv\flipbooklaravel\FlipBookServiceProvider',
 ]
 ```
 
